@@ -76,7 +76,7 @@ export default function App() {
       {/* Background Music */}
       <audio
         ref={audioRef}
-        src="/manaram-handawe-yasas-medagedara-malith-perera-piyath-rajapakse-raveen-tharuka.mp3"
+        src="/ssstik.io_1786658574127.mp3"
         loop
         autoPlay
         onPlay={() => setIsMusicPlaying(true)}
