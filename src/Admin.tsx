@@ -24,14 +24,14 @@ export const Admin = () => {
 
 With joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.
 
-Please view our wedding invitation and all the event details through the link below 🌐:
+Please view our homecoming invitation and all the event details through the link below 🌐:
 
 ${link}
 
 Your presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.
 
 With love,
-❤️ Shalika & Imara`;
+❤️ Patum & Chamodini`;
   };
 
   const copyToClipboard = (text: string, setCopied: React.Dispatch<React.SetStateAction<boolean>>) => {
@@ -44,7 +44,7 @@ With love,
   return (
     <div className="min-h-screen bg-[#12100C] text-[#FAFAF8] p-8 font-sans">
       <div className="max-w-2xl mx-auto bg-[#1A1814] rounded-2xl p-8 shadow-2xl border border-[#8B0000]/20">
-        <h1 className="text-3xl font-serif text-[#E8C547] mb-8 text-center">Invitation Link Generator</h1>
+        <h1 className="text-3xl font-serif text-[#E8C547] mb-8 text-center">Homecoming Invitation Link Generator</h1>
         
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row gap-4">

@@ -30,7 +30,7 @@ export default function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const weddingDate = new Date('2026-10-10T18:30:00');
+  const weddingDate = new Date('2026-10-25T19:00:00');
 
   const startMusic = () => {
     if (audioRef.current && !isMusicPlaying) {
@@ -76,7 +76,7 @@ export default function App() {
       {/* Background Music */}
       <audio
         ref={audioRef}
-        src="/ssstik.io_1786658574127.mp3"
+        src="/manaram-handawe-yasas-medagedara-malith-perera-piyath-rajapakse-raveen-tharuka.mp3"
         loop
         autoPlay
         onPlay={() => setIsMusicPlaying(true)}

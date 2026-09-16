@@ -41,7 +41,7 @@ export const NoteFromUs: React.FC = () => {
             <div className="relative px-2 sm:px-8">
               <Sparkles className="absolute -top-4 -left-2 text-[#FFFFFF] opacity-40 h-5 w-5" />
               <p className="text-stone-800 leading-[2.2] text-center text-sm md:text-base lg:text-lg font-serif tracking-wide drop-shadow-sm">
-                Our wedding day would not be complete without the people who have been part of our journey. Thank you for celebrating this beautiful beginning with us and for surrounding us with your love and blessings.<br /><br />
+                Our homecoming day would not be complete without the people who have been part of our journey. Thank you for celebrating this beautiful beginning with us and for surrounding us with your love and blessings.<br /><br />
                 We cannot wait to create memories that we’ll cherish for a lifetime.
               </p>
               <Sparkles className="absolute -bottom-4 -right-2 text-[#FFFFFF] opacity-40 h-5 w-5" />
@@ -52,7 +52,7 @@ export const NoteFromUs: React.FC = () => {
                 With love always
               </p>
               <p className="font-display text-[#FFFFFF] text-4xl md:text-5xl drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>
-                Shalika &amp; Imara
+                Patum &amp; Chamodini
               </p>
             </div>
           </div>

@@ -20,7 +20,7 @@ export const HomecomingDetails: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-6xl md:text-7xl font-display text-[#FFFFFF] drop-shadow-md" style={{ fontFamily: "'Great Vibes', cursive" }}>
-            Wedding Ceremony
+            Homecoming Ceremony
           </h2>
           <div className="flex items-center space-x-4">
             <div className="w-12 md:w-20 h-[1px] bg-gradient-to-r from-transparent to-[#FFFFFF]/70"></div>
@@ -45,33 +45,33 @@ export const HomecomingDetails: React.FC = () => {
           <CalendarHeart className="w-10 h-10 md:w-12 md:h-12 text-[#FFFFFF] mb-6 opacity-90 drop-shadow-md" strokeWidth={1} />
           
           <div className="space-y-2 mb-10">
-            <p className="text-[11px] md:text-xs text-stone-800 tracking-[0.3em] uppercase">Saturday</p>
+            <p className="text-[11px] md:text-xs text-stone-800 tracking-[0.3em] uppercase">Sunday</p>
             <p className="text-xl md:text-3xl font-serif text-[#FFFFFF] tracking-widest uppercase">
-              10th October 2026
+              25th October 2026
             </p>
           </div>
 
           <div className="w-full max-w-sm mx-auto space-y-6 mb-12">
             <div className="flex items-center justify-between text-stone-800 border-b border-[#FFFFFF]/20 pb-4">
               <span className="font-sans text-sm md:text-base tracking-widest uppercase opacity-90">Welcome</span>
-              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">6:30 PM</span>
+              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:00 PM</span>
             </div>
             <div className="flex items-center justify-between text-stone-800 border-b border-[#FFFFFF]/20 pb-4">
               <span className="font-sans text-sm md:text-base tracking-widest uppercase opacity-90">Reception</span>
-              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:30 PM onwards</span>
+              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:30 PM - 12:15 AM</span>
             </div>
           </div>
 
           <div className="flex flex-col items-center space-y-3 mb-12">
             <MapPin className="w-6 h-6 md:w-8 md:h-8 text-[#FFFFFF] mb-2 opacity-90" strokeWidth={1} />
-            <p className="text-xl md:text-2xl font-serif text-stone-800 tracking-wide">Crown Regency Hotel, Badulla</p>
-            <p className="text-[11px] md:text-sm text-stone-800 tracking-widest uppercase">Sri Lanka</p>
+            <p className="text-xl md:text-2xl font-serif text-stone-800 tracking-wide">Grand Ballroom, Waters Edge</p>
+            <p className="text-[11px] md:text-sm text-stone-800 tracking-widest uppercase">Colombo</p>
           </div>
 
           <a 
             target="_blank" 
             rel="noreferrer"
-            href="https://maps.app.goo.gl/sGEStucCUbkfLeDS6"
+            href="https://maps.app.goo.gl/hMyYbERdJL5sZQVH8"
             className="group relative inline-flex items-center justify-center space-x-3 px-10 py-4 overflow-hidden rounded-full border border-[#FFFFFF] bg-transparent transition-all duration-300 hover:bg-[#FFFFFF] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)]"
           >
             <span className="absolute inset-0 w-full h-full bg-[#FFFFFF] opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>

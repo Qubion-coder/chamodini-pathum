@@ -63,8 +63,7 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
         }}
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/Wedding_envelope_opens_with_light_202608040131.webm" type="video/webm" />
-        <source src="/Wedding_envelope_opens_with_light_202608040131.mp4" type="video/mp4" />
+        <source src="/Wedding_envelope_opens_withk4_light_202608040131.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-transparent pointer-events-none"></div>
 

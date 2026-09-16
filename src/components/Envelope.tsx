@@ -47,24 +47,24 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
             animate={{ scale: 1, y: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           >
-            {/* Envelope Back Base (Premium Sakura Texture) */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#99a4bc] to-[#53617e] shadow-[0_50px_100px_rgba(10,20,50,0.6)] rounded-xl border border-[#cccccc]/40 overflow-hidden">
+            {/* Envelope Back Base (Premium Black Texture) */}
+            <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a1a] to-[#000000] shadow-[0_50px_100px_rgba(10,20,50,0.6)] rounded-xl border border-brand-gold/40 overflow-hidden">
               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay opacity-20" />
               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] mix-blend-overlay opacity-30" />
-              <div className="absolute inset-3 border-[1.5px] border-[#cccccc]/30 rounded-lg pointer-events-none" />
-              <div className="absolute inset-4 border border-[#cccccc]/10 rounded-lg pointer-events-none" />
+              <div className="absolute inset-3 border-[1.5px] border-brand-gold/30 rounded-lg pointer-events-none" />
+              <div className="absolute inset-4 border border-brand-gold/10 rounded-lg pointer-events-none" />
             </div>
 
             {/* Pull-out Arched Invitation Card - Modern Sri Lankan Design */}
             <motion.div
-              className="absolute left-3 right-3 sm:left-5 sm:right-5 top-6 sm:top-8 bottom-2 bg-gradient-to-b from-[#f8f9fb] to-[#eef2f7] shadow-[0_0_50px_rgba(0,0,0,0.2)] rounded-t-[4rem] sm:rounded-t-[6rem] flex flex-col items-center justify-start pt-6 sm:pt-10 text-center z-10 overflow-hidden border-t-[4px] sm:border-t-[6px] border-x-[4px] sm:border-x-[6px] border-[#cccccc]/30"
+              className="absolute left-3 right-3 sm:left-5 sm:right-5 top-6 sm:top-8 bottom-2 bg-gradient-to-b from-[#111111] to-[#000000] shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-t-[4rem] sm:rounded-t-[6rem] flex flex-col items-center justify-start pt-6 sm:pt-10 text-center z-10 overflow-hidden border-t-[4px] sm:border-t-[6px] border-x-[4px] sm:border-x-[6px] border-brand-gold/50"
               initial={{ y: "0%" }}
               animate={isOpened ? { y: "-88%", zIndex: 40, rotate: -1 } : {}}
               transition={{ delay: 1.5, duration: 2.5, ease: [0.16, 1, 0.3, 1] }}
             >
               {/* Card Inner Arch Border */}
-              <div className="absolute inset-2 border-[1.5px] border-[#cccccc]/60 rounded-t-[3.5rem] sm:rounded-t-[5.5rem] pointer-events-none" />
-              <div className="absolute inset-3 border-[1px] border-[#666666]/20 rounded-t-[3.2rem] sm:rounded-t-[5.2rem] pointer-events-none" />
+              <div className="absolute inset-2 border-[1.5px] border-brand-gold/60 rounded-t-[3.5rem] sm:rounded-t-[5.5rem] pointer-events-none" />
+              <div className="absolute inset-3 border-[1px] border-brand-gold/20 rounded-t-[3.2rem] sm:rounded-t-[5.2rem] pointer-events-none" />
 
               {/* Kandyan border removed */}
 
@@ -78,19 +78,19 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <Heart className="w-6 h-6 text-brand-gold-deep" />
                 </div>
 
-                <h2 className="text-3xl sm:text-5xl font-display font-medium text-[#4a5770] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
-                  Imara <br />
-                  <span className="text-xl sm:text-3xl text-[#cccccc] italic font-light my-1 block">&</span>
-                  Shalika
+                <h2 className="text-3xl sm:text-5xl font-display font-medium text-brand-gold tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-[0_2px_4px_rgba(212,175,55,0.3)]">
+                  Chamodini <br />
+                  <span className="text-xl sm:text-3xl text-white italic font-light my-1 block">&</span>
+                  Patum
                 </h2>
 
-                <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-[#cccccc] to-transparent mx-auto my-3 sm:my-5" />
+                <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-brand-gold to-transparent mx-auto my-3 sm:my-5" />
 
-                <p className="text-[8px] sm:text-[11px] font-sans tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[#5c6b8a] mb-2 sm:mb-3 font-bold leading-none">
+                <p className="text-[8px] sm:text-[11px] font-sans tracking-[0.3em] sm:tracking-[0.5em] uppercase text-brand-gold/80 mb-2 sm:mb-3 font-bold leading-none">
                   Request the honor of your presence
                 </p>
-                <p className="text-base sm:text-2xl font-serif text-[#4a5770] tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
-                  20 • 08 • 2026
+                <p className="text-base sm:text-2xl font-serif text-white tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
+                  25 • 10 • 2026
                 </p>
               </motion.div>
 
@@ -112,7 +112,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                 className="absolute inset-0 drop-shadow-[0_15px_25px_rgba(50,0,10,0.5)]"
                 style={{ backfaceVisibility: 'hidden' }}
               >
-                <div className="w-full h-full bg-gradient-to-b from-[#99a4bc] to-[#53617e] overflow-hidden" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
+                <div className="w-full h-full bg-gradient-to-b from-[#1a1a1a] to-[#000000] overflow-hidden" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] mix-blend-overlay opacity-30" />
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diagonal-striped-brick.png')] mix-blend-overlay opacity-10" />
                   {/* Gold edge trim on flap */}
@@ -126,7 +126,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                 className="absolute inset-0"
                 style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
               >
-                <div className="w-full h-full bg-gradient-to-t from-[#cccccc] to-[#8b6b15] border-t-2 border-[#53617e]" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
+                <div className="w-full h-full bg-gradient-to-t from-brand-ivory to-black border-t-2 border-brand-gold/50" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
                   {/* Kandyan floral pattern lining */}
                   {/* Kandyan floral pattern lining removed */}
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/paper.png')] mix-blend-overlay opacity-40" />
@@ -162,7 +162,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
 
             {/* Traditional Ornamental Band/Wrap - Gold Metallic */}
             <motion.div
-              className="absolute top-[35%] left-[-2%] w-[104%] h-[20%] bg-gradient-to-r from-[#8a6811] via-[#8B0000] to-[#8a6811] z-25 pointer-events-none shadow-[0_10px_30px_rgba(50,0,10,0.5)] border-y-[3px] border-[#fde592] flex items-center justify-center overflow-hidden"
+              className="absolute top-[35%] left-[-2%] w-[104%] h-[20%] bg-gradient-to-r from-[#AA8000] via-[#D4AF37] to-[#AA8000] z-25 pointer-events-none shadow-[0_10px_30px_rgba(50,0,10,0.5)] border-y-[3px] border-[#F3E5AB] flex items-center justify-center overflow-hidden"
               initial={{ opacity: 1 }}
               animate={isOpened ? { opacity: 0, scale: 1.05 } : {}}
               transition={{ duration: 0.6, ease: "easeOut" }}
@@ -198,14 +198,14 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <div className="absolute inset-1 rounded-full border-[1.5px] border-dotted border-[#8B0000]/80 pointer-events-none animate-[spin_60s_linear_infinite]" />
 
                   <div className="relative flex flex-col items-center justify-center translate-y-[-2px]">
-                    <span className="text-[#8B0000] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      I
+                    <span className="text-[#D4AF37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(10,0,0,0.9)]">
+                      C
                     </span>
-                    <span className="text-[#8B0000]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)] my-[-6px]">
+                    <span className="text-[#D4AF37]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(10,0,0,0.9)] my-[-6px]">
                       &
                     </span>
-                    <span className="text-[#8B0000] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      S
+                    <span className="text-[#D4AF37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(10,0,0,0.9)]">
+                      P
                     </span>
                   </div>
 
@@ -228,7 +228,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
               >
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-[#fffdf9] font-serif italic text-2xl sm:text-4xl font-light tracking-wide text-shadow-xl drop-shadow-[0_8px_16px_rgba(10,20,50,0.8)]">
-                    Royal Sri Lankan Invitation
+                    Homecoming Invitation
                   </p>
                   <p className="text-[#8B0000] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
                     Break the seal to reveal

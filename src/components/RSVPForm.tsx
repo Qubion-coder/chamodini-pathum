@@ -162,7 +162,7 @@ export const RSVPForm: React.FC = () => {
                   </button>
                   
                   <a 
-                    href="https://www.google.com/calendar/render?action=TEMPLATE&text=Shalika+%26+Imara+Wedding&dates=20261010T114500Z/20261010T183000Z&details=We+are+excited+to+celebrate+with+you!&location=Crown+Regency+Hotel,+Badulla&sf=true&output=xml" 
+                    href="https://www.google.com/calendar/render?action=TEMPLATE&text=Patum+%26+Chamodini+Homecoming&dates=20261025T133000Z/20261025T184500Z&details=We+are+excited+to+celebrate+with+you!&location=Waters+Edge,+Grand+Ballroom&sf=true&output=xml" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="w-full group relative flex items-center justify-center overflow-hidden rounded-full border border-[#FFFFFF]/30 bg-[#FFFFFF]/5 transition-all duration-300 hover:bg-[#FFFFFF] py-4 hover:border-[#FFFFFF]"
@@ -172,6 +172,11 @@ export const RSVPForm: React.FC = () => {
                       Add to Google Calendar
                     </span>
                   </a>
+                </div>
+                
+                <div className="text-center pt-8 border-t border-[#FFFFFF]/20 mt-8">
+                  <p className="text-[#FFFFFF] text-xs font-semibold uppercase tracking-[0.2em] mb-3">For any inquiries, please contact</p>
+                  <p className="text-stone-800 font-sans text-sm tracking-widest">0719049147 | 0776099996</p>
                 </div>
               </form>
             )}

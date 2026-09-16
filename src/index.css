@@ -10,20 +10,21 @@
   --color-brand-gold-light: #F3E5AB;
   --color-brand-gold-deep: #AA8000;
   
-  --color-brand-primary: #000000;
-  --color-brand-primary-light: #999999;
-  --color-brand-primary-deep: #000000;
-  --color-brand-primary-muted: #666666;
+  --color-brand-primary: #111111; /* Almost Black */
+  --color-brand-primary-light: #333333;
+  --color-brand-primary-deep: #000000; /* Deep Black */
+  --color-brand-primary-muted: #222222;
   
-  --color-brand-champagne: #F7E7CE; /* Champagne Gold / Ivory blend */
-  --color-brand-ivory: #8B0000; /* Changed to Dark Red for theme */
-  --color-brand-pink: #000000;
+  --color-brand-champagne: #1A1A1A; /* Dark Champagne/Black blend */
+  --color-brand-ivory: #4A0404; /* Deep Premium Maroon */
+  --color-brand-pink: #D4AF37; /* Map pink to gold for accents */
   --color-brand-white: #FFFFFF;
-  --color-brand-accent: #333333;
+  --color-brand-accent: #D4AF37;
   --color-brand-dark: #000000;
 
-  /* Override text color to white for text-stone-800 */
-  --color-stone-800: #ffffff;
+  /* Override text color to white and gold */
+  --color-stone-800: #FFFFFF;
+  --color-stone-500: #D4AF37; /* Make muted text gold */
 
   /* Church Theme */
   --color-church-primary: #8F9779;

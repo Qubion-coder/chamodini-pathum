@@ -17,10 +17,10 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <Heart className="h-8 w-8 text-[#FFFFFF] opacity-90 fill-transparent" strokeWidth={1} />
-              <span className="text-4xl lg:text-5xl font-display text-[#FFFFFF] drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>I &amp; S</span>
+              <span className="text-4xl lg:text-5xl font-display text-[#FFFFFF] drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>P &amp; C</span>
             </div>
             <p className="text-stone-800 leading-[1.8] font-serif text-justify tracking-wide text-sm md:text-base pr-4">
-              Thank you for visiting our wedding website and being part of our love story. The honor of your presence would mean the world to us.
+              Thank you for visiting our homecoming website and being part of our love story. The honor of your presence would mean the world to us.
             </p>
           </div>
 
@@ -42,12 +42,12 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-sm font-sans font-semibold text-[#FFFFFF] uppercase tracking-[0.2em]">Wedding Details</h3>
+            <h3 className="text-sm font-sans font-semibold text-[#FFFFFF] uppercase tracking-[0.2em]">Homecoming Details</h3>
             <div className="w-8 h-[1px] bg-[#FFFFFF]/40 mb-4"></div>
             <div className="space-y-3 text-stone-800 font-sans tracking-[0.1em] text-sm">
-              <p>10th October 2026</p>
-              <p>Crown Regency Hotel, Badulla</p>
-              <p className="text-[#FFFFFF] italic mt-4 font-serif tracking-widest text-xs opacity-80">#Imara&amp;Shalika2026</p>
+              <p>25th October 2026</p>
+              <p>Grand Ballroom, Waters Edge</p>
+              <p className="text-[#FFFFFF] italic mt-4 font-serif tracking-widest text-xs opacity-80">#Patum&amp;Chamodini2026</p>
             </div>
           </div>
 
@@ -60,10 +60,10 @@ export const Footer: React.FC = () => {
             <div className="w-8 h-[1px] bg-gradient-to-l from-transparent to-[#FFFFFF]/50"></div>
           </div>
           <p className="text-[#FFFFFF]/70 text-[10px] md:text-xs font-sans tracking-[0.2em] uppercase">
-            © 2026 Imara &amp; Shalika's Wedding
+            © 2026 Patum &amp; Chamodini's Homecoming
           </p>
           <p className="text-[#FFFFFF] text-xs mt-2 font-sans tracking-wider">
-            Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-stone-800 hover:text-[#FFFFFF] underline" href="https://wa.me/94707819074">invitemint</a>
+            Want a beautiful event website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-stone-800 hover:text-[#FFFFFF] underline" href="https://wa.me/94707819074">invitemint</a>
           </p>
         </div>
       </div>

@@ -13,14 +13,16 @@ export async function submitToGoogleSheet(sheet: SheetName, payload: SheetPayloa
   body.append('sheet', sheet);
   body.append('payload', JSON.stringify(payload));
 
-  // Google Apps Script web apps often run cross-origin without CORS headers.
-  // no-cors still sends the request, but the response is opaque to the browser.
-  await fetch(GOOGLE_SCRIPT_URL, {
-    method: 'POST',
-    mode: 'no-cors',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-    },
-    body: body.toString(),
-  });
+  // Commented out to prevent saving test submissions
+  // await fetch(GOOGLE_SCRIPT_URL, {
+  //   method: 'POST',
+  //   mode: 'no-cors',
+  //   headers: {
+  //     'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+  //   },
+  //   body: body.toString(),
+  // });
+  
+  // Simulate network delay for UI preview
+  await new Promise(resolve => setTimeout(resolve, 800));
 }
