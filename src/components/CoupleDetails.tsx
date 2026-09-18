@@ -21,7 +21,7 @@ export const CoupleDetails: React.FC = () => {
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-primary/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm">
-            Chamodini <span className="italic text-brand-primary font-light mx-2">&</span> Patum
+            Chamodini <span className="italic text-brand-primary font-light mx-2">&</span> Pathum
           </h2>
         </motion.div>
       </div>
@@ -37,7 +37,7 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Patum</h3>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Pathum</h3>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Jinadasa Ranawaka and Indrani Amarasinghe</p>
           </div>
           <div className="hidden lg:flex justify-end mt-8">

@@ -13,7 +13,7 @@ export const Admin: React.FC = () => {
     ? `${baseUrl}?prefix=${encodeURIComponent(prefix)}&name=${encodeURIComponent(guestName.trim())}`
     : baseUrl;
 
-  const generatedMessage = `Dear ${prefix} ${guestName.trim()} ❤️\n\nWith joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.\n\nPlease view our homecoming invitation and all the event details through the link below 🌐:\n\n${generatedLink}\n\nYour presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.\n\nWith love,\n❤️ Patum & Chamodini`;
+  const generatedMessage = `Dear ${prefix} ${guestName.trim()} ❤️\n\nWith joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.\n\nPlease view our wedding invitation and all the event details through the link below 🌐:\n\n${generatedLink}\n\nYour presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.\n\nWith love,\n❤️ Pathum & Chamodini`;
 
   const handleCopyLink = async () => {
     try {
@@ -38,7 +38,7 @@ export const Admin: React.FC = () => {
   return (
     <div className="min-h-screen bg-brand-ivory text-stone-800 p-6 md:p-12 font-sans flex items-center justify-center">
       <div className="max-w-2xl w-full bg-transparent rounded-3xl shadow-xl p-8 border border-[#FFFFFF]/30">
-        <h1 className="text-3xl font-serif text-center mb-8 text-stone-800">Patum & Chamodini's<br />Homecoming Invitation Link Generator</h1>
+        <h1 className="text-3xl font-serif text-center mb-8 text-stone-800">Pathum & Chamodini's<br />Wedding Invitation Link Generator</h1>
 
         <div className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -55,8 +55,6 @@ export const Admin: React.FC = () => {
                 <option value="Mr. & Mrs.">Mr. & Mrs.</option>
                 <option value="Family">Family</option>
                 <option value="Dear">Dear</option>
-                <option value="Dr.">Dr.</option>
-                <option value="Prof.">Prof.</option>
               </select>
             </div>
 

@@ -162,7 +162,7 @@ export const RSVPForm: React.FC = () => {
                   </button>
                   
                   <a 
-                    href="https://www.google.com/calendar/render?action=TEMPLATE&text=Patum+%26+Chamodini+Homecoming&dates=20261025T133000Z/20261025T184500Z&details=We+are+excited+to+celebrate+with+you!&location=Waters+Edge,+Grand+Ballroom&sf=true&output=xml" 
+                    href="https://www.google.com/calendar/render?action=TEMPLATE&text=Pathum+%26+Chamodini+Homecoming&dates=20261025T133000Z/20261025T184500Z&details=We+are+excited+to+celebrate+with+you!&location=Waters+Edge+Hotel,+Grand+Ballroom&sf=true&output=xml" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="w-full group relative flex items-center justify-center overflow-hidden rounded-full border border-[#FFFFFF]/30 bg-[#FFFFFF]/5 transition-all duration-300 hover:bg-[#FFFFFF] py-4 hover:border-[#FFFFFF]"

@@ -53,18 +53,18 @@ export const HomecomingDetails: React.FC = () => {
 
           <div className="w-full max-w-sm mx-auto space-y-6 mb-12">
             <div className="flex items-center justify-between text-stone-800 border-b border-[#FFFFFF]/20 pb-4">
-              <span className="font-sans text-sm md:text-base tracking-widest uppercase opacity-90">Welcome</span>
+              <span className="font-sans text-sm md:text-base tracking-widest uppercase opacity-90">Hall Opens</span>
               <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:00 PM</span>
             </div>
             <div className="flex items-center justify-between text-stone-800 border-b border-[#FFFFFF]/20 pb-4">
               <span className="font-sans text-sm md:text-base tracking-widest uppercase opacity-90">Reception</span>
-              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:30 PM - 12:15 AM</span>
+              <span className="font-serif text-[#FFFFFF] text-lg md:text-xl">7:00 PM - 12:15 AM</span>
             </div>
           </div>
 
           <div className="flex flex-col items-center space-y-3 mb-12">
             <MapPin className="w-6 h-6 md:w-8 md:h-8 text-[#FFFFFF] mb-2 opacity-90" strokeWidth={1} />
-            <p className="text-xl md:text-2xl font-serif text-stone-800 tracking-wide">Grand Ballroom, Waters Edge</p>
+            <p className="text-xl md:text-2xl font-serif text-stone-800 tracking-wide text-center">Waters Edge Hotel<br />Grand Ballroom</p>
             <p className="text-[11px] md:text-sm text-stone-800 tracking-widest uppercase">Colombo</p>
           </div>
 

@@ -52,7 +52,7 @@ export const NoteFromUs: React.FC = () => {
                 With love always
               </p>
               <p className="font-display text-[#FFFFFF] text-4xl md:text-5xl drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>
-                Patum &amp; Chamodini
+                Pathum &amp; Chamodini
               </p>
             </div>
           </div>

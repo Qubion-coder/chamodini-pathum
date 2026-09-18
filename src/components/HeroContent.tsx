@@ -15,11 +15,13 @@ export const HeroContent: React.FC = () => {
     <section aria-label="Hero" className="relative w-full h-[100dvh] overflow-hidden flex items-center justify-center">
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/ChatGPT Image Sep 2, 2026, 01_40_42 AM.png" 
-          alt="Wedding background" 
+        <video 
+          src="/Wedding_envelope_opens_withk4_light_202608040131.mp4" 
           className="h-full w-full object-cover" 
-          loading="eager" 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
         />
         <div className="absolute inset-0 bg-transparent" />
       </div>

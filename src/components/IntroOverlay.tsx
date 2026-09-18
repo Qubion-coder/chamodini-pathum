@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from 'motion/react';
 
 interface IntroOverlayProps {
   onEnter: () => void;
+  onPlayMusic: () => void;
 }
 
-export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
+export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter, onPlayMusic }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -18,6 +19,7 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
   }, []);
 
   const handlePlay = () => {
+    onPlayMusic();
     if (videoRef.current) {
       setIsLoading(true);
       const playPromise = videoRef.current.play();

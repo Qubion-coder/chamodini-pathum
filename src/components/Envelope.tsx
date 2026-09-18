@@ -81,7 +81,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                 <h2 className="text-3xl sm:text-5xl font-display font-medium text-brand-gold tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-[0_2px_4px_rgba(212,175,55,0.3)]">
                   Chamodini <br />
                   <span className="text-xl sm:text-3xl text-white italic font-light my-1 block">&</span>
-                  Patum
+                  Pathum
                 </h2>
 
                 <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-brand-gold to-transparent mx-auto my-3 sm:my-5" />

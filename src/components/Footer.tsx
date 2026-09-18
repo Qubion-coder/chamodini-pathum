@@ -46,8 +46,8 @@ export const Footer: React.FC = () => {
             <div className="w-8 h-[1px] bg-[#FFFFFF]/40 mb-4"></div>
             <div className="space-y-3 text-stone-800 font-sans tracking-[0.1em] text-sm">
               <p>25th October 2026</p>
-              <p>Grand Ballroom, Waters Edge</p>
-              <p className="text-[#FFFFFF] italic mt-4 font-serif tracking-widest text-xs opacity-80">#Patum&amp;Chamodini2026</p>
+              <p>Waters Edge Hotel<br />Grand Ballroom</p>
+              <p className="text-[#FFFFFF] italic mt-4 font-serif tracking-widest text-xs opacity-80">#Pathum&amp;Chamodini2026</p>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
             <div className="w-8 h-[1px] bg-gradient-to-l from-transparent to-[#FFFFFF]/50"></div>
           </div>
           <p className="text-[#FFFFFF]/70 text-[10px] md:text-xs font-sans tracking-[0.2em] uppercase">
-            © 2026 Patum &amp; Chamodini's Homecoming
+            © 2026 Pathum &amp; Chamodini's Homecoming
           </p>
           <p className="text-[#FFFFFF] text-xs mt-2 font-sans tracking-wider">
             Want a beautiful event website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-stone-800 hover:text-[#FFFFFF] underline" href="https://wa.me/94707819074">invitemint</a>

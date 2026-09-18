@@ -17,6 +17,7 @@ import { IntroVideo } from './components/IntroVideo';
 import { IntroOverlay } from './components/IntroOverlay';
 
 import { HeroContent } from './components/HeroContent';
+import { ImageSection } from './components/ImageSection';
 import { CornerFlowers } from './components/CornerFlowers';
 import { Admin } from './components/Admin';
 
@@ -91,11 +92,14 @@ export default function App() {
             transition={{ duration: 1 }}
             className="fixed inset-0 z-50"
           >
-            <IntroOverlay onEnter={() => {
-              setShowIntro(false);
-              setShowMain(true);
-              startMusic();
-            }} />
+            <IntroOverlay 
+              onEnter={() => {
+                setShowIntro(false);
+                setShowMain(true);
+                startMusic();
+              }}
+              onPlayMusic={startMusic}
+            />
           </motion.div>
         )}
       </AnimatePresence>
@@ -121,6 +125,8 @@ export default function App() {
 
 
             <HeroContent />
+
+            <ImageSection />
 
             <Countdown targetDate={weddingDate} />
 
