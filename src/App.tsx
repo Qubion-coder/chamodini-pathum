@@ -51,25 +51,6 @@ export default function App() {
     }
   };
 
-  useEffect(() => {
-    const handleFirstInteraction = () => {
-      startMusic();
-      window.removeEventListener('click', handleFirstInteraction);
-      window.removeEventListener('scroll', handleFirstInteraction);
-      window.removeEventListener('touchstart', handleFirstInteraction);
-    };
-
-    window.addEventListener('click', handleFirstInteraction);
-    window.addEventListener('scroll', handleFirstInteraction, { passive: true });
-    window.addEventListener('touchstart', handleFirstInteraction, { passive: true });
-
-    return () => {
-      window.removeEventListener('click', handleFirstInteraction);
-      window.removeEventListener('scroll', handleFirstInteraction);
-      window.removeEventListener('touchstart', handleFirstInteraction);
-    };
-  }, [isMusicPlaying]);
-
   return (
     <div className="relative min-h-screen font-sans selection:bg-brand-gold selection:text-stone-800 overflow-x-hidden bg-brand-ivory">
       <FloatingPetals />
@@ -79,7 +60,6 @@ export default function App() {
         ref={audioRef}
         src="/ssstik.io_1786658574127.mp3"
         loop
-        autoPlay
         onPlay={() => setIsMusicPlaying(true)}
         onPause={() => setIsMusicPlaying(false)}
       />
